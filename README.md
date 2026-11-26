@@ -2,7 +2,7 @@
 
 # VMware vCenter / ESXi CIS, EOL & Patch Auditor
 
-[![tests](https://github.com/3tternp/vmware-vcenter-esxi-cis-audit/actions/workflows/tests.yml/badge.svg)](https://github.com/3tternp/vmware-vcenter-esxi-cis-audit/actions/workflows/tests.yml) ![Python 3.9+](https://img.shields.io/badge/python-3.9%2B-blue) ![License: MIT](https://img.shields.io/badge/license-MIT-green) ![Status: read--only](https://img.shields.io/badge/access-read--only-informational)
+[![tests](https://github.com/3tternp/vmware-vcenter-esxi-cis-audit/actions/workflows/tests.yml/badge.svg)](https://github.com/3tternp/vmware-vcenter-esxi-cis-audit/actions/workflows/tests.yml) ![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue) ![License: MIT](https://img.shields.io/badge/license-MIT-green) ![Status: read--only](https://img.shields.io/badge/access-read--only-informational)
 
 Python (Tkinter) GUI that connects read-only to vCenter or a standalone ESXi host and reports:
 
@@ -24,7 +24,7 @@ git clone https://github.com/3tternp/vmware-vcenter-esxi-cis-audit.git
 cd vmware-vcenter-esxi-cis-audit
 pip install -r requirements.txt
 ```
-Requires Python 3.9+ with Tkinter (included with the standard Windows/macOS installers; on Debian/Ubuntu `sudo apt install python3-tk`).
+Requires Python 3.10+ with Tkinter (included with the standard Windows/macOS installers; on Debian/Ubuntu `sudo apt install python3-tk`).
 
 ## Usage
 
