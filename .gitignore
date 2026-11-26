@@ -1,6 +1,6 @@
 __pycache__/
 *.pyc
-*.html
-*.csv
 vmware_audit.json
 .venv/
+/vmware_audit.*
+/report.*

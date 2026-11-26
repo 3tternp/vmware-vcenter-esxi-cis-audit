@@ -2,7 +2,9 @@
 from __future__ import annotations
 
 import queue
+import sys
 import threading
+from pathlib import Path
 import tkinter as tk
 from tkinter import ttk, filedialog, messagebox
 
@@ -20,12 +22,23 @@ class App(tk.Tk):
         self.title("VMware vCenter / ESXi - CIS, EOL & Patch Auditor")
         self.geometry("1280x780")
         self.minsize(1000, 600)
+        self._set_icon()
         self.q = queue.Queue()
         self.results, self.meta = [], {}
         self.cancel = threading.Event()
         self.worker = None
         self._build()
         self.after(100, self._pump)
+
+    def _set_icon(self):
+        assets = Path(__file__).resolve().parent.parent / "assets"
+        try:
+            self._icon = tk.PhotoImage(file=str(assets / "icon_64.png"))
+            self.iconphoto(True, self._icon)
+            if sys.platform == "win32":
+                self.iconbitmap(str(assets / "icon.ico"))
+        except Exception:
+            pass  # icon is cosmetic
 
     # ---------------------------------------------------------------- layout
     def _build(self):
