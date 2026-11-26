@@ -2,7 +2,7 @@
 
 # VMware vCenter / ESXi CIS, EOL & Patch Auditor
 
-![Python 3.9+](https://img.shields.io/badge/python-3.9%2B-blue) ![License: MIT](https://img.shields.io/badge/license-MIT-green) ![Status: read--only](https://img.shields.io/badge/access-read--only-informational)
+[![tests](https://github.com/3tternp/vmware-vcenter-esxi-cis-audit/actions/workflows/tests.yml/badge.svg)](https://github.com/3tternp/vmware-vcenter-esxi-cis-audit/actions/workflows/tests.yml) ![Python 3.9+](https://img.shields.io/badge/python-3.9%2B-blue) ![License: MIT](https://img.shields.io/badge/license-MIT-green) ![Status: read--only](https://img.shields.io/badge/access-read--only-informational)
 
 Python (Tkinter) GUI that connects read-only to vCenter or a standalone ESXi host and reports:
 
