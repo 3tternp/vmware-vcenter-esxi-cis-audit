@@ -1,0 +1,46 @@
+{
+  "_comment": "Known release builds used to detect missing patches. Entries are best-effort and MUST be verified against Broadcom release notes / KB 'Build numbers and versions of VMware ESXi/ESX' and updated regularly (Data > Load builds JSON). A build newer than the newest entry is reported as 'newer than table', never as a false failure.",
+  "esxi": {
+    "7.0": [
+      {"build": 18644231, "name": "7.0 Update 3", "date": "2021-10-05"},
+      {"build": 19193900, "name": "7.0 Update 3c", "date": "2022-01-27"},
+      {"build": 19482537, "name": "7.0 Update 3d", "date": "2022-03-29"},
+      {"build": 19898904, "name": "7.0 Update 3e", "date": "2022-04-12"},
+      {"build": 20036589, "name": "7.0 Update 3f", "date": "2022-07-12"},
+      {"build": 20328353, "name": "7.0 Update 3g", "date": "2022-09-08"},
+      {"build": 20842708, "name": "7.0 Update 3h", "date": "2022-12-13"},
+      {"build": 21424296, "name": "7.0 Update 3i", "date": "2023-03-30"},
+      {"build": 22348816, "name": "7.0 Update 3j", "date": "2023-09-28"},
+      {"build": 23307199, "name": "7.0 Update 3k", "date": "2024-01-30"},
+      {"build": 24026615, "name": "7.0 Update 3l", "date": "2024-06-25"},
+      {"build": 24322018, "name": "7.0 Update 3m", "date": "2024-09-17"}
+    ],
+    "8.0": [
+      {"build": 20513097, "name": "8.0 GA", "date": "2022-10-11"},
+      {"build": 20842819, "name": "8.0a", "date": "2022-12-15"},
+      {"build": 21203435, "name": "8.0b", "date": "2023-02-14"},
+      {"build": 21493926, "name": "8.0c", "date": "2023-03-30"},
+      {"build": 21495797, "name": "8.0 Update 1", "date": "2023-04-18"},
+      {"build": 22088125, "name": "8.0 Update 1c", "date": "2023-07-27"},
+      {"build": 22380479, "name": "8.0 Update 2", "date": "2023-09-21"},
+      {"build": 23305546, "name": "8.0 Update 2b", "date": "2024-02-29"},
+      {"build": 23825572, "name": "8.0 Update 2c", "date": "2024-05-21"},
+      {"build": 24022510, "name": "8.0 Update 3", "date": "2024-06-25"},
+      {"build": 24280767, "name": "8.0 Update 3b", "date": "2024-09-17"},
+      {"build": 24414501, "name": "8.0 Update 3c", "date": "2024-10-21"},
+      {"build": 24585383, "name": "8.0 Update 3d", "date": "2024-12-10"},
+      {"build": 24674346, "name": "8.0 Update 3e", "date": "2025-03-04"}
+    ]
+  },
+  "vcenter": {
+    "7.0": [
+      {"build": 18700403, "name": "7.0 Update 3", "date": "2021-10-05"}
+    ],
+    "8.0": [
+      {"build": 20519528, "name": "8.0 GA", "date": "2022-10-11"},
+      {"build": 21560480, "name": "8.0 Update 1", "date": "2023-04-18"},
+      {"build": 22385739, "name": "8.0 Update 2", "date": "2023-09-21"},
+      {"build": 24022515, "name": "8.0 Update 3", "date": "2024-06-25"}
+    ]
+  }
+}

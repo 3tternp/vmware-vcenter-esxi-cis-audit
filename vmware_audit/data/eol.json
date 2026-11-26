@@ -1,0 +1,21 @@
+{
+  "_comment": "End of General Support dates per release train. Verify against Broadcom's VMware Product Lifecycle Matrix; refresh with the GUI (Data > Fetch EOL online) or edit this file.",
+  "esxi": [
+    {"cycle": "5.5", "eogs": "2018-09-19", "tech_guidance": "2020-09-19"},
+    {"cycle": "6.0", "eogs": "2020-03-12", "tech_guidance": "2022-03-12"},
+    {"cycle": "6.5", "eogs": "2022-10-15", "tech_guidance": "2023-11-15"},
+    {"cycle": "6.7", "eogs": "2022-10-15", "tech_guidance": "2023-11-15"},
+    {"cycle": "7.0", "eogs": "2025-10-02", "tech_guidance": "2027-10-02"},
+    {"cycle": "8.0", "eogs": "2027-10-11", "tech_guidance": "2029-10-11"},
+    {"cycle": "9.0", "eogs": "2030-06-17", "tech_guidance": ""}
+  ],
+  "vcenter": [
+    {"cycle": "5.5", "eogs": "2018-09-19", "tech_guidance": "2020-09-19"},
+    {"cycle": "6.0", "eogs": "2020-03-12", "tech_guidance": "2022-03-12"},
+    {"cycle": "6.5", "eogs": "2022-10-15", "tech_guidance": "2023-11-15"},
+    {"cycle": "6.7", "eogs": "2022-10-15", "tech_guidance": "2023-11-15"},
+    {"cycle": "7.0", "eogs": "2025-10-02", "tech_guidance": "2027-10-02"},
+    {"cycle": "8.0", "eogs": "2027-10-11", "tech_guidance": "2029-10-11"},
+    {"cycle": "9.0", "eogs": "2030-06-17", "tech_guidance": ""}
+  ]
+}
